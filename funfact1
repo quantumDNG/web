@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipeedia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        table, tr, td {
+            border: 2px;
+            border-style: none;
+        }
+        hr.solid {
+            border-top: 3px solid #bbb;
+        }
+        .centerimg {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        .centertxt {
+            text-align: center;
+            border: 2px;
+        }
+        #infobox {
+            background-color: lightgray;
+            padding: 10px;
+            border: 1px solid #000;
+            border-radius: 4px;
+            text-align: center;
+            width: 95%;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        #header {
+            background-color: darkgray;
+            padding: 5px;
+            border-bottom: 1px solid #dcdcdc;
+            text-align: left;
+            z-index: 1000;
+        }
+        #navbar {
+            width: 100%;
+            padding: 15px;
+            background-color: #f0f0f0;
+            border-bottom: 1px solid #dcdcdc;
+            display: flex;
+            justify-content: left;
+            gap: 15px;
+        }
+        #navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 15px;
+        }
+        #navbar a {
+            text-decoration: none;
+            color: black;
+            padding: 0px 15px;
+            display: block;
+        }
+        #main-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+        #content {
+            flex: 3;
+            padding: 15px;
+            background-color: white;
+        }
+        #sidebar {
+            flex: 1;
+            padding: 15px;
+            background-color: #e9ecef;
+            border-left: 1px solid #dcdcdc;
+        }
+        #footer {
+            background-color: #f8f9fa;
+            padding: 10px;
+            text-align: center;
+            border-top: 1px solid #dcdcdc;
+            margin-top: 20px;
+        }
+        h1 {
+            font-size: 32px;
+        }
+        p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAASFBMVEX///////////////////////////////9HcEz////////////////////////////////////////////////////////////E7MmqAAAAF3RSTlMBrkVx7RwRAwD4WZ6CKDq+ClHZY5HizVXc/csAAAGSSURBVDjLdVMJksQgCPQMkHjFHPz/p4s6k8y1VCWl0jTQisJvU/9ufh19AwCny6neAEoN/5zkN5Y/GADTMfVTECr/iBpIPzWW6cg9VL55n+AGAAbTojRbBc3tdW1U6hkPeFosGJg7DqxzvuHUXTtrKZBPN8lxOpliT/UAFISVD4y86Io4LdSJri4k0uLClOrhKeBGx8Lbo9cngFN15DgZtpqXWWCAr4CVHe2VgzTBvEomBPUBYOE4oRycfeR8+W9AprIkSWUx0lkU4CfAzKWg2gxGEQCaqReAWntXbeOri5/XrTpDC1HKV3Z62UMImx/OLrM3gwHKUvMpBTMtpqjBIBeYQ+QZRl1+lk7zdj8auRlRprCWBYjXMe/x5aX0/OREaCPR+0FELu92Th4ugFyCdH/QHL1Pm6ZeQrbjXTWAZiKRt/IwqjqY6W6zMYi5Eo0NN/clpSwSn8Ea47LO23g8AOpFKMnhduc6fYQ350MHKLkVJp9F+DVnQhIagfvlf8rtV7tOvwb16vUatX9G+bu4p/0Bp+AlYzDAGEsAAAAASUVORK5CYII=" />Wikipeedia</h1>
+        <p><small>The Unmaintained Cyclopedia</small></p>
+    </div>
+    <div id="navbar">
+        <ul>
+            <li><a href="https://quantumdng.github.io/web/main.html">Main Page</a></li>
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">How to?</a></li>
+            <li><a href="https://quantumdng.github.io/web/credit.html">Credits</a></li>
+        </ul>
+    </div>
+    <div id="main-container">
+        <div id="content">
+            <h1>
+                Ngày 4 tháng 3...
+            </h1>
+        <hr class="solid">
+            <h2>ĐINH NGỌC ANH ĐÃ NÓI GÌ CƠ????</h2>
+            <p>
+                Vào ngày 4 tháng 3 năm 2025, Đinh Ngọc Anh trong một cuộc gọi trên Discord với Nguyễn Quang Dương, vào lúc 9 giờ 34 phút tối, đã thu âm "Cho tôi 10 điểm, cho tôi 10 điểm, cho tôi 10 điểm"
+        <hr class="solid">
+                <p>
+            <i>Cười ẻ</i>
+            - Duong, 2025
+                </p>
+        </div>
+        <div id="sidebar">
+            <h2>Người hay "dốc"</h2>
+            <p>
+                <small><i>File đã bị xóa theo yêu cầu của chủ nhân bức ảnh</small></i><br>
+                <i class="centertxt">Nguyễn Quang Dương, tháng 1, năm 2020.</i>
+            </p>
+            <hr class="solid">
+            <p>
+                <table>
+                    <tr>
+                        <td>Sinh</td>
+                        <td>Ngày 19, Tháng 11, 2007(17 tuổi)</td>
+                    </tr><br>
+                    <tr>
+                        <td>Nơi theo học</td>
+                        <td>
+                            Chịu<br>
+                            Chịu<br>
+                            THPT Tân Lập(hiện tại)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Trình độ học vấn</td>
+                        <td>Lớp 11(đang theo học lớp 12)</td>
+                    </tr>
+                </table>
+            </p>
+        </div>
+    </div>
+    <div id="footer">
+        CÁI NÀY!!! ☝️👨‍🦯➡️ SẼ ĐƯỢC THÊM VÀO ✅ 🥶 🔥 TRONG BẢN CẬP NHẬT TIẾP THEO!! 📜 😱 ⛓️ VÀ BẠN SẼ ĐƯỢC THĂNG CẤP!! 🆙 🔥 🐕 THÀNH LẬP TRÌNH VIÊN!! 🛠️ 🪛 🚧 NGAY LẬP TỨC!! 📡 📡 📡 VÀ SẼ ĐƯỢC KHEN THƯỞNG!!!! 💹 💸 🤑 💰 CẢM ƠN VÌ ĐÃ HỢP TÁC!! 🔗 🗣️ 🔊 🙏 🔥 VÀ CHÚC MỘT NGÀY TỐT LÀNH!!! 👍 😄 🪑
+    </div>
+</body>
+</html>
