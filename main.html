@@ -137,6 +137,22 @@
   			<li>Brace for what is bound to happen</li>
 			</ul>
         </p>
+	<p>
+		<button onclick="randomPage()">Feeling Lucky?</button>
+
+    	<script>
+        function randomPage() {
+            const pages = [
+                "https://quantumdng.github.io/web/funfact1.html",
+                "https://google.com",
+                "https://wikipedia.org",
+            ];
+            
+            const randomIndex = Math.floor(Math.random() * pages.length);
+            window.location.href = pages[randomIndex];
+        }
+    </script>
+	</p>
         </div>
     </div>
     <div id="footer">
